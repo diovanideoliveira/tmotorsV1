@@ -14,7 +14,7 @@ import Depoimento from './components/Depoimento'
 export default function Home() {
   const slidercars: SwiperProps = {
     spaceBetween: 50,
-    slidesPerView: 1,
+    slidesPerView: 3,
     navigation: true,
     pagination: {
       clickable: true,
