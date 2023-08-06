@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden;
+}
+
+.front{
+  transform: rotate(-3deg);
+}
+
+img{
+  z-index: auto;
+  position: relative;
+}
+
+.background1{
+  background: #FF0008;
+}
+.color1{
+  color: #FF0008;
+}
+.min-w-512{
+  min-width: 5/12;
+}
+.divider{
+  height: 2px;
+}
