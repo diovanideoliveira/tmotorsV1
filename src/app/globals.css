@@ -2,28 +2,86 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   overflow-x: hidden;
 }
 
-.front{
+.front {
   transform: rotate(-3deg);
 }
 
-img{
+img {
   z-index: auto;
   position: relative;
 }
 
-.background1{
+.background1 {
   background: #FF0008;
 }
-.color1{
+
+.color1 {
   color: #FF0008;
 }
-.min-w-512{
+
+.min-w-512 {
   min-width: 5/12;
 }
-.divider{
+
+.divider {
   height: 2px;
+}
+
+.vendedores {
+  max-width: 840px;
+}
+
+@media (min-width: 640px) {
+  .vendedores {
+    max-width: 550px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .vendedores {
+    max-width: 840px;
+  }
+}
+
+.maximage {
+  max-width: 600px;
+}
+
+.maximolarguracarros {
+  max-width: 1500px;
+}
+
+.maxdepoimentos {
+  max-width: 10000px;
+}
+
+.gradient {
+  padding: 1px;
+  background: linear-gradient(135deg, #FF2A2A 0%, #000 100%);
+}
+
+.corvendedor {
+  transition: .5s;
+  border: solid 1px rgb(229, 229, 229);
+}
+
+.corvendedor:hover {
+  border: solid 1px #000;
+}
+
+.maxpage {
+  max-width: 1500px;
+}
+.carrolg{
+  width: 1000px;
+}
+.max1{
+  max-width: 1150px;
+}
+.min1{
+  min-width: 450px;
 }
